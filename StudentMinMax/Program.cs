@@ -6,7 +6,9 @@ namespace StudentMinMax
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Logic logic = new Logic();
+            logic.Run();
+            Console.ReadLine();
         }
     }
 }
